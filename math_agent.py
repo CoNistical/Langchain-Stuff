@@ -6,22 +6,6 @@ from langgraph.checkpoint.memory import InMemorySaver
 from langchain.tools import tool
 import math
 
-'''
-Build out more tools
-- Remainder division
-- Cube root
-- Powers
-- Logs base x
-- Logs base 2
-- Logs base 10
-- Euclidean distance (research)
-- Convert angle x from radians to degrees
-- Convert angle x from degrees to radians
-
-https://docs.python.org/3/library/math.html
-
-'''
-
 # Loading environment variables
 load_dotenv()
 
@@ -167,4 +151,5 @@ while True:
 
         print(f"{token.content}", end="")
         #print(f"\n{metadata}\n")
+
     '''
